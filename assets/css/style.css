@@ -1,0 +1,135 @@
+* {
+  font-family: "Roboto", "Arial", "sans-serif";
+}
+.bg-image {
+  background-image: url(../images/vlvobase.jpg);
+  min-height: 745px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section1-head {
+  font-size: 128px;
+  margin: 110px auto 0px;
+  width: 100%;
+}
+.section1-subhead {
+  margin: 0px auto;
+}
+
+/* car safe section */
+.car-safe {
+  background: linear-gradient(#1c2122, #748284);
+  min-height: 440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+.car-safe-head {
+  font-size: 36px;
+  margin-left: 16px;
+}
+.car-safe-text {
+  font-size: 16px open;
+  margin: 37px 0 0 20px;
+}
+.car-safe-texts {
+  margin: 30px 0 20px 0;
+}
+.car-safe-img {
+  width: 100%;
+}
+/* end car safe section */
+.car-work {
+  background-color: #748184;
+}
+.car-work-head {
+  width: 100%;
+}
+.car-work-text {
+  width: 100%;
+}
+.car-work-items {
+  margin-top: 70px;
+}
+.car-work-item svg {
+  fill: #fff;
+  width: 100%;
+}
+.car-work-item p {
+  text-align: center;
+  align-content: space-between;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.car-work-caricon {
+  height: 95px;
+  width: 95px;
+  margin: 0 auto;
+  display: block;
+}
+/* car-service */
+.car-service {
+  background-color: #1c2122;
+  color: #fff;
+  text-align: center;
+}
+.car-service-img {
+  background-image: url(../images/suprawheel.jpg);
+  min-height: 568px;
+  background-position: 50% 50%;
+}
+.car-service-text {
+  margin: auto;
+  padding: 70px;
+}
+.black-lambo .img-wrapper {
+  padding: 0 !important;
+}
+.black-lambo img {
+  width: 100%;
+}
+.lambo-text {
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+.lambo-backround {
+  background: #1c2122;
+}
+.faded-car{
+  background-image: url(../images/sefidtor.jpg);
+}
+.faded-car-item{
+padding: 24px;
+}
+.faded-car-item a{
+  margin: 5px 2px ;
+}
+.text-p-car{
+  margin-top: 45px;
+}
+
+ٖ @media (max-width: 1199px) {
+  .bg-image {
+    min-height: 745px;
+  }
+}
+@media (min-width: 1200px) {
+  .car-safe .container-fluid {
+    width: 1140px;
+  }
+}
+@media (max-width: 991px) {
+  .bg-image {
+    background-size: auto 115%;
+    background-position: 50.09% 0%;
+  }
+}
+@media (max-width: 551px) {
+  .car-service-text {
+    padding: 50px 40px;
+  }
+}
